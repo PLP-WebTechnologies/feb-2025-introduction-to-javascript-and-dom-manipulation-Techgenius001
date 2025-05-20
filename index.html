@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JavaScript and DOM Manipulation Practice</title>
+    <!-- Link to external JavaScript -->
+    <script defer src="script.js"></script>
+    <style>
+      /* Some basic styles to see the changes clearly */
+      #dynamic-text {
+        color: darkblue;
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      button {
+        padding: 10px 15px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      #added-element {
+        margin-top: 20px;
+        color: green;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>JavaScript & DOM Manipulation Example</h1>
+    </header>
+
+    <main>
+      <!-- Dynamic text element -->
+      <p id="dynamic-text">This text will change dynamically.</p>
+
+      <!-- Button to trigger adding/removing element -->
+      <button id="toggle-btn">Add Element</button>
+
+      <!-- Container where new element will be added or removed -->
+      <section id="container" aria-live="polite">
+        <!-- New elements will appear here -->
+      </section>
+    </main>
+
+    <footer>
+      <small>© 2025 Samuel Njihia</small>
+    </footer>
+  </body>
+</html>
